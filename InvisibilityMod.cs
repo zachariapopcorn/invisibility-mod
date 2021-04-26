@@ -58,7 +58,7 @@ namespace InvisibilityMod
                         sender.Write(player.Data.PlayerId);
                         sender.EndMessage();
                     },
-                    5f,
+                    40f,
                     Properties.Resources.InvisibleButton,
                     new Vector2(0.125f, 0.125f),
                     () =>
